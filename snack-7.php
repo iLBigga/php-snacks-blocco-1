@@ -53,7 +53,6 @@ $studenti = [
            for($i = 0; $i < count($studenti); $i++){
                 $name = $studenti[$i]['nome'] . ' ' . $studenti[$i]['cognome'];
                 $avarage = round(array_sum($studenti[$i]['voti'])/count($studenti[$i]['voti']));
-
         ?>
             <li>
                 <?php
